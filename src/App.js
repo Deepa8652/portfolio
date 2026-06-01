@@ -89,22 +89,37 @@ const App = () => {
 
 
       tags: ["HTML", "CSS", "Bootstrap"],
-      image: "/api/placeholder/600/400",
+      image: "/p1.webp",
     },
     {
       id: 2,
-      title: "Banking Management System",
-      description: "This project is a basic Banking Management System developed using Java Swing for the front-end and MySQL for the back-end database. It provides simple banking operations through a graphical user interface (GUI).",
-      tags: ["Java", "MYSql"],
-      image: "/api/placeholder/600/400",
+      title: " Gym Management Website",
+      description: "Created a web-based gym management system enabling users to purchase and manage memberships Built an admin dashboard to handle trainers, users, and membership data efficiently.Integrated SQL database for storing user records, trainer details, and transactions Optimized UI for smooth navigation and better user experience. ",
+      tags: ["HTML", "CSS", "PHP", "SQL", "JavaScript"],
+      image: "/p2.webp",
     },
     {
       id: 3,
       title: "PortFolio",
       description: "A sleek and modern portfolio website built using React to showcase my projects, skills, and experience. Designed with a responsive layout, smooth animations, and an interactive user interface to create a strong first impression. It reflects my passion for clean code, creative design, and full stack development.",
       tags: ["React"],
-      image: "/api/placeholder/600/400",
+      image: "/p5.png",
+    },
+    {
+      id: 4,
+      title: "Realtime Chat Application",
+      description: "Developed a real-time chat application supporting instant messaging and group communication Enabled live message exchange using backend services and database integration Implemented features such as adding friends, creating groups, and managing conversations Structured a user-friendly interface for seamless chat and contact management ",
+      tags: ["Flutter", "Node.js", "MongoDB"],
+      image: "/p3.jpg",
+    },
+     {
+      id: 5,
+      title: "Food Ordering Web Application ",
+      description: "Engineered a full-stack food ordering platform supporting multiple user roles (customer, admin, restaurant) Merged secure authentication and role-based access control for different users Built features like menu browsing, order placement, and real-time order tracking Constructed an admin dashboard for managing orders, users, and restaurant listings Enhanced system functionality by adding notifications and analytics features ",
+      tags: ["Go", "Next.js", "TypeScript", "TailwindV4"],
+      image: "/p4.jpg",
     }
+    
   ];
 
   // Skills data
